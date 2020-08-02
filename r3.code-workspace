@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"astools.braceStyle": "Adobe",
+		"editor.fontLigatures": true,
+		"editor.renderFinalNewline": true,
+		"editor.insertSpaces": true,
+		"workbench.editor.highlightModifiedTabs": true,
+		"files.trimFinalNewlines": true,
+		"files.insertFinalNewline": true,
+		"as3mxml.sdk.framework": "f:\\flexsdk",
+		"files.eol": "\n",
+		"markdown.extension.toc.githubCompatibility": true,
+		"files.exclude": {
+			"node_modules/": true,
+			"package-lock.json": true,
+			"bin": true,
+			"dist": true,
+			"assets/DataStore": true,
+			"assets/RECOVER*": true
+		}
+	}
+}

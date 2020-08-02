@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/32.0">
+  <id>R3Air</id>
+  <versionNumber>9.9.9</versionNumber>
+  <filename>R3Air</filename>
+  <name>R^3</name>
+  <architecture>32</architecture>
+  <description>FlashFlashRevolution R^3 Engine Standalone</description>
+  <supportedProfiles>extendedDesktop desktop</supportedProfiles>
+  <gpuPreference>discrete</gpuPreference>
+  <initialWindow>
+    <content>air.swf</content>
+    <title>FFR R^3 - Sans Battle Edition</title>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <minimizable>true</minimizable>
+    <maximizable>true</maximizable>
+    <resizable>true</resizable>
+    <renderMode>direct</renderMode>
+  </initialWindow>
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+  <icon>
+    <image36x36>icons/ffr_36.png</image36x36>
+    <image48x48>icons/ffr_48.png</image48x48>
+    <image72x72>icons/ffr_72.png</image72x72>
+    <image96x96>icons/ffr_96.png</image96x96>
+    <image144x144>icons/ffr_144.png</image144x144>
+    <image180x180>icons/ffr_180.png</image180x180>
+    <image192x192>icons/ffr_192.png</image192x192>
+    <image512x512>icons/ffr_512.png</image512x512>
+  </icon>
+</application>

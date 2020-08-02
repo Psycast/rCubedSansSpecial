@@ -1,0 +1,66 @@
+{
+    "application": "application.xml",
+    "config": "air",
+    "type": "app",
+    "compilerOptions": {
+        "output": "bin/air.swf",
+        "library-path": [
+            "src/assets/"
+        ],
+        "define": [
+            {
+                "name": "CONFIG::not_air",
+                "value": false
+            },
+            {
+                "name": "CONFIG::air",
+                "value": true
+            },
+            {
+                "name": "CONFIG::debug",
+                "value": false
+            },
+            {
+                "name": "CONFIG::release",
+                "value": true
+            },
+            {
+                "name": "CONFIG::timeStamp",
+                "value": "\"2020-03-28\""
+            }
+        ],
+        "default-size": {
+            "width": 780,
+            "height": 480
+        },
+        "default-frame-rate": 60,
+        "default-background-color": "#000000",
+        "debug": true,
+        "swf-version": 43
+    },
+    "files": [
+        "src/Main.as"
+    ],
+    "airOptions": {
+        "windows": {
+            "output": "bin/R^3Game",
+            "signingOptions": {
+                "storetype": "pkcs12",
+                "keystore": "bat/R3Air.p12"
+            }
+        },
+        "mac": {
+            "output": "bin/r3.air",
+            "signingOptions": {
+                "storetype": "pkcs12",
+                "keystore": "bat/R3Air.p12"
+            }
+        },
+        "files": [
+            {
+                "file": "bin",
+                "path": "bin"
+            }
+        ]
+    }
+}
